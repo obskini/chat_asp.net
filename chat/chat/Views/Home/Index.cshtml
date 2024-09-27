@@ -1,0 +1,101 @@
+﻿@model chat.Models.ChatViewModel
+
+@{
+    ViewData["Title"] = "Chat Application";
+}
+
+<div class="container-fluid vh-100 d-flex flex-column">
+    <header class="row bg-dark text-light py-2">
+        <div class="col">
+            <h1 class="h4">Chat Application</h1>
+        </div>
+    </header>
+
+    <div class="row flex-grow-1">
+        <!-- Channels Sidebar -->
+        <nav class="col-3 bg-light border-end p-3">
+            <div class="d-flex flex-column">
+                @if (string.IsNullOrEmpty(Model.UserName))
+                {
+                    <!-- Ask for user's name -->
+                    <form asp-action="Index" method="post" class="mb-3">
+                        <div class="form-group mb-2">
+                            <label for="userName">Enter your name:</label>
+                            <input type="text" class="form-control" name="userName" id="userName" required />
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Submit</button>
+                    </form>
+                }
+                else
+                {
+                    <!-- Greet the user -->
+                    <p>Hello, <strong>@Model.UserName</strong>!</p>
+
+                    <!-- List of chat channels -->
+                    @if (Model.ChatChannels != null && Model.ChatChannels.Any())
+                    {
+                        <h4 class="h6 text-muted">Channels</h4>
+                        <form asp-action="Index" method="post">
+                            <input type="hidden" name="userName" value="@Model.UserName" />
+                            <ul class="list-group">
+                                @foreach (var channel in Model.ChatChannels)
+                                {
+                                    <li class="list-group-item p-2">
+                                        <button type="submit" name="selectedChannel" value="@channel.Name" class="btn btn-link">@channel.Name</button>
+                                    </li>
+                                }
+                            </ul>
+                        </form>
+                    }
+                }
+            </div>
+        </nav>
+
+        <!-- Chat Messages Panel -->
+        <main class="col-9 d-flex flex-column p-3">
+            <!-- Chat Header -->
+            <div class="mb-2">
+                @if (!string.IsNullOrEmpty(Model.SelectedChannel))
+                {
+                    <h2 class="h5">#@Model.SelectedChannel</h2>
+                }
+            </div>
+
+            <!-- Chat Messages -->
+            <div class="flex-grow-1 border rounded bg-white p-3 mb-2 overflow-auto" style="max-height: 70vh;">
+                @if (!string.IsNullOrEmpty(Model.SelectedChannel) && Model.ChatMessages != null)
+                {
+                    <ul class="list-unstyled">
+                        @foreach (var message in Model.ChatMessages)
+                        {
+                            <li class="mb-3">
+                                <div>
+                                    <strong>@message.Author</strong> 
+                                    <span class="text-muted">@message.CreatedAt.ToLocalTime().ToString("HH:mm")</span>
+                                </div>
+                                <div>@message.Message</div>
+                            </li>
+                        }
+                    </ul>
+                }
+                else if (!string.IsNullOrEmpty(Model.SelectedChannel))
+                {
+                    <p>No messages in this channel yet!</p>
+                }
+            </div>
+
+            <!-- Send Message Form -->
+            @if (!string.IsNullOrEmpty(Model.UserName) && !string.IsNullOrEmpty(Model.SelectedChannel))
+            {
+                <form asp-action="SendMessage" asp-controller="ChatMessage" method="post">
+                    <input type="hidden" name="userName" value="@Model.UserName" />
+                    <input type="hidden" name="selectedChannel" value="@Model.SelectedChannel" />
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="messageContent" placeholder="Type a message..." required />
+                        <button class="btn btn-primary" type="submit">Send</button>
+                    </div>
+                </form>
+            }
+        </main>
+    </div>
+</div>

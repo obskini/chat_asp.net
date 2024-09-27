@@ -12,31 +12,25 @@ namespace chat.Controllers
     {
         private readonly IChatChannelApi _chatChannelApi;
 
-        // Injecteer de IChatChannelApi interface via de constructor
         public ChannelController(IChatChannelApi chatChannelApi)
         {
             _chatChannelApi = chatChannelApi;
         }
 
-        // GET: api/channel
-        // Haal alle chatkanalen op
         [HttpGet]
         public async Task<ActionResult<IList<ChatChannelResponse>>> GetChannels()
         {
             try
             {
                 var channels = await _chatChannelApi.GetAllAsync();
-                return Ok(channels); // Stuur de lijst van chatkanalen terug als JSON
+                return Ok(channels);
             }
             catch (HttpRequestException e)
             {
-                // Bij een fout geef een bad request terug
                 return BadRequest(new { message = $"Error retrieving channels: {e.Message}" });
             }
         }
 
-        // POST: api/channel
-        // Maak een nieuw chatkanaal aan
         [HttpPost]
         public async Task<ActionResult<ChatChannelResponse>> CreateChannel([FromBody] ChatChannelResponse channel)
         {
@@ -48,11 +42,10 @@ namespace chat.Controllers
             try
             {
                 var createdChannel = await _chatChannelApi.CreateAsync(channel);
-                return CreatedAtAction(nameof(GetChannels), new { id = createdChannel.Id }, createdChannel); // Return 201 Created
+                return CreatedAtAction(nameof(GetChannels), new { id = createdChannel.Id }, createdChannel); 
             }
             catch (HttpRequestException e)
             {
-                // Bij een fout geef een bad request terug
                 return BadRequest(new { message = $"Error creating channel: {e.Message}" });
             }
         }

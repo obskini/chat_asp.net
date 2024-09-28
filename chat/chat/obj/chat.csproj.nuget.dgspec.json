@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MSI\\source\\repos\\chat\\chat\\chat.csproj": {}
+    "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\chat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MSI\\source\\repos\\chat\\chat\\chat.csproj": {
+    "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\chat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\chat.csproj",
+        "projectUniqueName": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\chat.csproj",
         "projectName": "chat",
-        "projectPath": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\chat.csproj",
+        "projectPath": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\chat.csproj",
         "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\obj\\",
+        "outputPath": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",

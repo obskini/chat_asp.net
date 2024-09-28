@@ -6,5 +6,9 @@
         public IList<ChatChannelResponse> ChatChannels { get; set; }
         public IList<ChatMessage> ChatMessages { get; set; }
         public string SelectedChannel { get; set; }
+
+
+        public int CurrentPage { get; set; }
+        public int TotalPages { get; set; }
     }
 }

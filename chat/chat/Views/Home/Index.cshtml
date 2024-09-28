@@ -7,7 +7,7 @@
 <div class="container-fluid vh-100 d-flex flex-column">
     <header class="row bg-dark text-light py-2">
         <div class="col">
-            <h1 class="h4">Chat Application</h1>
+            <h1 class="h4">Vives Lounge</h1>
         </div>
     </header>
 
@@ -20,21 +20,25 @@
                     <!-- Ask for user's name -->
                     <form asp-action="Index" method="post" class="mb-3">
                         <div class="form-group mb-2">
-                            <label for="userName">Enter your name:</label>
+                            <label for="userName">Wat is jouw naam:</label>
                             <input type="text" class="form-control" name="userName" id="userName" required />
                         </div>
-                        <button type="submit" class="btn btn-primary w-100">Submit</button>
+                        <button type="submit" class="btn btn-primary w-100">Join</button>
                     </form>
                 }
                 else
                 {
-                    <!-- Greet the user -->
-                    <p>Hello, <strong>@Model.UserName</strong>!</p>
+                    <p>Hey, <strong>@Model.UserName</strong> !</p>
 
-                    <!-- List of chat channels -->
                     @if (Model.ChatChannels != null && Model.ChatChannels.Any())
                     {
-                        <h4 class="h6 text-muted">Channels</h4>
+                        <div class="d-flex justify-content-between align-items-center" style="margin-bottom: 10px;">
+                            <h4 class="h6 text-muted">Channels</h4>
+                            <button type="button" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#createChannelModal">
+                                Create Channel
+                            </button>
+                        </div>
+
                         <form asp-action="Index" method="post">
                             <input type="hidden" name="userName" value="@Model.UserName" />
                             <ul class="list-group">
@@ -46,14 +50,41 @@
                                 }
                             </ul>
                         </form>
+
+                        <nav aria-label="Channel pagination">
+                            <ul class="pagination justify-content-center">
+
+                                @if (Model.CurrentPage > 1)
+                                {
+                                    <li class="page-item">
+                                        <a class="page-link" href="@Url.Action("Index", new { userName = Model.UserName, page = Model.CurrentPage - 1 })">Previous</a>
+                                    </li>
+                                }
+
+                                @for (var i = 1; i <= Model.TotalPages; i++)
+                                {
+                                    <li class="page-item @(Model.CurrentPage == i ? "active" : "")">
+                                        <a class="page-link" href="@Url.Action("Index", new { userName = Model.UserName, page = i })">@i</a>
+                                    </li>
+                                }
+
+
+                                @if (Model.CurrentPage < Model.TotalPages)
+                                {
+                                    <li class="page-item">
+                                        <a class="page-link" href="@Url.Action("Index", new { userName = Model.UserName, page = Model.CurrentPage + 1 })">Next</a>
+                                    </li>
+                                }
+                            </ul>
+                        </nav>
                     }
                 }
             </div>
         </nav>
 
-        <!-- Chat Messages Panel -->
+
         <main class="col-9 d-flex flex-column p-3">
-            <!-- Chat Header -->
+
             <div class="mb-2">
                 @if (!string.IsNullOrEmpty(Model.SelectedChannel))
                 {
@@ -61,7 +92,6 @@
                 }
             </div>
 
-            <!-- Chat Messages -->
             <div class="flex-grow-1 border rounded bg-white p-3 mb-2 overflow-auto" style="max-height: 70vh;">
                 @if (!string.IsNullOrEmpty(Model.SelectedChannel) && Model.ChatMessages != null)
                 {
@@ -70,7 +100,7 @@
                         {
                             <li class="mb-3">
                                 <div>
-                                    <strong>@message.Author</strong> 
+                                    <strong>@message.Author</strong>
                                     <span class="text-muted">@message.CreatedAt.ToLocalTime().ToString("HH:mm")</span>
                                 </div>
                                 <div>@message.Message</div>
@@ -80,11 +110,10 @@
                 }
                 else if (!string.IsNullOrEmpty(Model.SelectedChannel))
                 {
-                    <p>No messages in this channel yet!</p>
+                    <p>Nog geen berichten hierzo.</p>
                 }
             </div>
 
-            <!-- Send Message Form -->
             @if (!string.IsNullOrEmpty(Model.UserName) && !string.IsNullOrEmpty(Model.SelectedChannel))
             {
                 <form asp-action="SendMessage" asp-controller="ChatMessage" method="post">
@@ -97,5 +126,28 @@
                 </form>
             }
         </main>
+    </div>
+</div>
+
+<div class="modal fade" id="createChannelModal" tabindex="-1" aria-labelledby="createChannelModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="createChannelModalLabel">Create New Channel</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <form asp-action="Create" asp-controller="Channel" method="post">
+                    <div class="form-group mb-3">
+                        <label for="channelName">Channel Name:</label>
+                        <input type="text" class="form-control" name="channelName" id="channelName" required />
+                        <input type="hidden" name="userName" value="@Model.UserName" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Create Channel</button>
+                </form>
+
+            </div>
+        </div>
     </div>
 </div>

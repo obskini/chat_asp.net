@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jomOh2qH5le0X61fecIzNP1iP85+M9BUgmFQrB2boySYdquo3bGQdKIcAKCCCL9KsRx7ueb+zFyza/nhMrj9jA==",
+  "dgSpecHash": "r2fyZZ9i4A/NK/de0/eA4cMJKtbAN83nRq7Ysni+Ku3/4EapiMYoiqaGuOrO/smnpf13jd//pGRRttYaohnySg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\chat.csproj",
+  "projectFilePath": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\chat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MSI\\.nuget\\packages\\microsoft.aspnet.webapi.client\\6.0.0\\microsoft.aspnet.webapi.client.6.0.0.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

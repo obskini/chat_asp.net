@@ -1,50 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MSI\\source\\repos\\chat\\",
+  "WorkspaceRootPath": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|C:\\Users\\MSI\\source\\repos\\chat\\chat\\controllers\\chatmessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|solutionrelative:chat\\controllers\\chatmessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|c:\\users\\msi\\source\\repos\\chat\\chat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|solutionrelative:chat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|C:\\Users\\MSI\\source\\repos\\chat\\chat\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|solutionrelative:chat\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|C:\\Users\\MSI\\source\\repos\\chat\\chat\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|solutionrelative:chat\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|C:\\Users\\MSI\\source\\repos\\chat\\chat\\classes\\chatmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|solutionrelative:chat\\classes\\chatmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|C:\\Users\\MSI\\source\\repos\\chat\\chat\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|solutionrelative:chat\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|C:\\Users\\MSI\\source\\repos\\chat\\chat\\models\\chatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|c:\\users\\msi\\documents\\github\\chat_asp.net\\chat\\chat\\models\\chatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|solutionrelative:chat\\models\\chatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|C:\\Users\\MSI\\source\\repos\\chat\\chat\\classes\\chatchannels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|solutionrelative:chat\\classes\\chatchannels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|solutionrelative:chat\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|C:\\Users\\MSI\\source\\repos\\chat\\chat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|solutionrelative:chat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|C:\\Users\\MSI\\source\\repos\\chat\\chat\\models\\chatchannelresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\models\\chatchannelresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|solutionrelative:chat\\models\\chatchannelresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|C:\\Users\\MSI\\source\\repos\\chat\\chat\\classes\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|solutionrelative:chat\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|c:\\users\\msi\\documents\\github\\chat_asp.net\\chat\\chat\\controllers\\chatmessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|solutionrelative:chat\\controllers\\chatmessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|c:\\users\\msi\\documents\\github\\chat_asp.net\\chat\\chat\\controllers\\channelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|solutionrelative:chat\\controllers\\channelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\classes\\chatmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|solutionrelative:chat\\classes\\chatmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\classes\\chatchannels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|solutionrelative:chat\\classes\\chatchannels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\classes\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|solutionrelative:chat\\classes\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|c:\\users\\msi\\documents\\github\\chat_asp.net\\chat\\chat\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|solutionrelative:chat\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|solutionrelative:chat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C7305223-5BFA-4577-98E4-444C418E7A04}|chat\\chat.csproj|solutionrelative:chat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,141 +62,176 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ChatViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Models\\ChatViewModel.cs",
+              "RelativeDocumentMoniker": "chat\\Models\\ChatViewModel.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Models\\ChatViewModel.cs",
+              "RelativeToolTip": "chat\\Models\\ChatViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:14:33.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ChatMessageController.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\Controllers\\ChatMessageController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Controllers\\ChatMessageController.cs",
               "RelativeDocumentMoniker": "chat\\Controllers\\ChatMessageController.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\Controllers\\ChatMessageController.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Controllers\\ChatMessageController.cs",
               "RelativeToolTip": "chat\\Controllers\\ChatMessageController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T19:56:05.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "chat\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "chat\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAADwvygAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T19:47:21.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ChatViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\Models\\ChatViewModel.cs",
-              "RelativeDocumentMoniker": "chat\\Models\\ChatViewModel.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\Models\\ChatViewModel.cs",
-              "RelativeToolTip": "chat\\Models\\ChatViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T19:48:40.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "chat\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "chat\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAkwGUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-27T19:44:43.548Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ChatMessages.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\Classes\\ChatMessages.cs",
-              "RelativeDocumentMoniker": "chat\\Classes\\ChatMessages.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\Classes\\ChatMessages.cs",
-              "RelativeToolTip": "chat\\Classes\\ChatMessages.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "chat\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "chat\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T19:39:58.141Z"
+              "WhenOpened": "2024-09-27T19:47:21.378Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ChatMessage.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\Models\\ChatMessage.cs",
-              "RelativeDocumentMoniker": "chat\\Models\\ChatMessage.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\Models\\ChatMessage.cs",
-              "RelativeToolTip": "chat\\Models\\ChatMessage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T19:37:24.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ChatChannelResponse.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\Models\\ChatChannelResponse.cs",
-              "RelativeDocumentMoniker": "chat\\Models\\ChatChannelResponse.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\Models\\ChatChannelResponse.cs",
-              "RelativeToolTip": "chat\\Models\\ChatChannelResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T19:24:01.852Z"
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "chat\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "chat\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAAAJgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T19:44:43.548Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ChatChannels.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\Classes\\ChatChannels.cs",
-              "RelativeDocumentMoniker": "chat\\Classes\\ChatChannels.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\Classes\\ChatChannels.cs",
-              "RelativeToolTip": "chat\\Classes\\ChatChannels.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAwwCIAAAAJAAAA",
+              "Title": "ChatMessages.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Classes\\ChatMessages.cs",
+              "RelativeDocumentMoniker": "chat\\Classes\\ChatMessages.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Classes\\ChatMessages.cs",
+              "RelativeToolTip": "chat\\Classes\\ChatMessages.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwAIAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T19:23:01.936Z"
+              "WhenOpened": "2024-09-27T19:39:58.141Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "ChatMessage.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Models\\ChatMessage.cs",
+              "RelativeDocumentMoniker": "chat\\Models\\ChatMessage.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Models\\ChatMessage.cs",
+              "RelativeToolTip": "chat\\Models\\ChatMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T19:37:24.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatChannelResponse.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Models\\ChatChannelResponse.cs",
+              "RelativeDocumentMoniker": "chat\\Models\\ChatChannelResponse.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Models\\ChatChannelResponse.cs",
+              "RelativeToolTip": "chat\\Models\\ChatChannelResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T19:24:01.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChatChannels.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Classes\\ChatChannels.cs",
+              "RelativeDocumentMoniker": "chat\\Classes\\ChatChannels.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Classes\\ChatChannels.cs",
+              "RelativeToolTip": "chat\\Classes\\ChatChannels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T19:23:01.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Classes\\AppSettings.cs",
+              "RelativeDocumentMoniker": "chat\\Classes\\AppSettings.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Classes\\AppSettings.cs",
+              "RelativeToolTip": "chat\\Classes\\AppSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T19:21:53.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChannelController.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Controllers\\ChannelController.cs",
+              "RelativeDocumentMoniker": "chat\\Controllers\\ChannelController.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Controllers\\ChannelController.cs",
+              "RelativeToolTip": "chat\\Controllers\\ChannelController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:01:51.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "chat\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "chat\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T12:34:21.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Program.cs",
               "RelativeDocumentMoniker": "chat\\Program.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\Program.cs",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\Program.cs",
               "RelativeToolTip": "chat\\Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAiwBIAAAA4AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T19:22:31.347Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AppSettings.cs",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\Classes\\AppSettings.cs",
-              "RelativeDocumentMoniker": "chat\\Classes\\AppSettings.cs",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\Classes\\AppSettings.cs",
-              "RelativeToolTip": "chat\\Classes\\AppSettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T19:21:53.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\appsettings.json",
               "RelativeDocumentMoniker": "chat\\appsettings.json",
-              "ToolTip": "C:\\Users\\MSI\\source\\repos\\chat\\chat\\appsettings.json",
+              "ToolTip": "C:\\Users\\MSI\\Documents\\GitHub\\chat_asp.net\\chat\\chat\\appsettings.json",
               "RelativeToolTip": "chat\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-27T19:20:22.948Z"
+              "WhenOpened": "2024-09-27T19:20:22.948Z",
+              "EditorCaption": ""
             }
           ]
         }

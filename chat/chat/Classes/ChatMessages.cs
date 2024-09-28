@@ -1,15 +1,11 @@
-﻿using System.Collections.Generic;
-using System.Net.Http;
-using System.Net.Http.Json;
-using System.Threading.Tasks;
-using chat.Models;
+﻿using chat.Models;
 
 namespace chat.Classes
 {
     public interface IChatMessageApi
     {
         Task<IList<ChatMessage>> GetMessagesAsync(string channelName);
-        Task SendMessageAsync(ChatMessage message); // Add this line
+        Task SendMessageAsync(ChatMessage message); 
     }
 
     public class ChatMessageApi : IChatMessageApi
@@ -24,18 +20,18 @@ namespace chat.Classes
         public async Task<IList<ChatMessage>> GetMessagesAsync(string channelName)
         {
             var httpClient = _httpClientFactory.CreateClient("TalkApi");
-            var route = $"/api/chat-messages?channel={channelName}"; // Fetch messages for the specific channel
+            var route = $"/api/chat-messages?channel={channelName}";
 
             var result = await httpClient.GetAsync(route);
             result.EnsureSuccessStatusCode();
 
-            return await result.Content.ReadAsAsync<IList<ChatMessage>>(); // Deserialize to a list of ChatMessage
+            return await result.Content.ReadAsAsync<IList<ChatMessage>>();
         }
 
         public async Task SendMessageAsync(ChatMessage message)
         {
             var httpClient = _httpClientFactory.CreateClient("TalkApi");
-            var route = "/api/chat-messages"; // POST endpoint
+            var route = "/api/chat-messages";
 
             var result = await httpClient.PostAsJsonAsync(route, message);
             result.EnsureSuccessStatusCode();
